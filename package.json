@@ -1,0 +1,25 @@
+{
+  "name": "glean",
+  "version": "0.9.0",
+  "description": "Glean is an asset pipeline manager for Node and Express.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "asset",
+    "pipeline"
+  ],
+  "author": "Adam Daniel <adam@acdaniel.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.0.0",
+    "lodash-node": "^2.4.1",
+    "node-fs": "^0.1.7",
+    "q": "^1.0.1",
+    "mime": "^1.2.11"
+  },
+  "peerDependencies": {
+    "express": "^4.0.0"
+  }
+}
